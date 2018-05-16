@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {IP_UART_ET_TELEMETRE_US.vho IP_UART_ET_TELEMETRE_US_vhd.sdo}}
+	{{"Fast Model"} {IP_UART_ET_TELEMETRE_US_fast.vho IP_UART_ET_TELEMETRE_US_vhd_fast.sdo}}
+}

@@ -1,0 +1,35 @@
+
+State Machine - |ReferenceDesign|FSM_SERIAL_TX:C3|PS
+Name PS.Finish PS.Hold PS.Transfer PS.Idle 
+PS.Idle 0 0 0 0 
+PS.Transfer 0 0 1 1 
+PS.Hold 0 1 0 1 
+PS.Finish 1 0 0 1 
+
+State Machine - |ReferenceDesign|TELEMETRE_ULTRASON:C2|FSM_ECHO:C5|PS
+Name PS.FINISH PS.TIMEOUT PS.MEASURE PS.IDLE 
+PS.IDLE 0 0 0 0 
+PS.MEASURE 0 0 1 1 
+PS.TIMEOUT 0 1 0 1 
+PS.FINISH 1 0 0 1 
+
+State Machine - |ReferenceDesign|TELEMETRE_ULTRASON:C2|FSM_TRIGGER:C4|PS
+Name PS.Finish PS.Send PS.Idle 
+PS.Idle 0 0 0 
+PS.Send 0 1 1 
+PS.Finish 1 0 1 
+
+State Machine - |ReferenceDesign|UART_Emission:C1|FSM_Emission:C2|PS
+Name PS.Finish PS.Transfer PS.Start PS.Idle 
+PS.Idle 0 0 0 0 
+PS.Start 0 0 1 1 
+PS.Transfer 0 1 0 1 
+PS.Finish 1 0 0 1 
+
+State Machine - |ReferenceDesign|UART_Reception:C0|FSM_Reception:C2|PS
+Name PS.Finish PS.Transfer PS.Skip PS.Start PS.Idle 
+PS.Idle 0 0 0 0 0 
+PS.Start 0 0 0 1 1 
+PS.Skip 0 0 1 0 1 
+PS.Transfer 0 1 0 0 1 
+PS.Finish 1 0 0 0 1 

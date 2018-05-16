@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'FSM_SERIAL_TX:C3|CounterMod6:C1|Count_Internal[1]'
+Slack : -56.185
+TNS   : -224.478
+
+Type  : Slow Model Setup 'Clk'
+Slack : -2.883
+TNS   : -265.432
+
+Type  : Slow Model Setup 'FSM_SERIAL_TX:C3|PS.Finish'
+Slack : -1.053
+TNS   : -2.812
+
+Type  : Slow Model Hold 'FSM_SERIAL_TX:C3|CounterMod6:C1|Count_Internal[1]'
+Slack : -3.576
+TNS   : -18.074
+
+Type  : Slow Model Hold 'Clk'
+Slack : -2.528
+TNS   : -6.902
+
+Type  : Slow Model Hold 'FSM_SERIAL_TX:C3|PS.Finish'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -162.380
+
+Type  : Slow Model Minimum Pulse Width 'FSM_SERIAL_TX:C3|CounterMod6:C1|Count_Internal[1]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'FSM_SERIAL_TX:C3|PS.Finish'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'FSM_SERIAL_TX:C3|CounterMod6:C1|Count_Internal[1]'
+Slack : -24.071
+TNS   : -93.578
+
+Type  : Fast Model Setup 'Clk'
+Slack : -0.785
+TNS   : -45.109
+
+Type  : Fast Model Setup 'FSM_SERIAL_TX:C3|PS.Finish'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast Model Hold 'FSM_SERIAL_TX:C3|CounterMod6:C1|Count_Internal[1]'
+Slack : -1.913
+TNS   : -11.148
+
+Type  : Fast Model Hold 'Clk'
+Slack : -1.573
+TNS   : -4.559
+
+Type  : Fast Model Hold 'FSM_SERIAL_TX:C3|PS.Finish'
+Slack : 0.007
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -162.380
+
+Type  : Fast Model Minimum Pulse Width 'FSM_SERIAL_TX:C3|CounterMod6:C1|Count_Internal[1]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'FSM_SERIAL_TX:C3|PS.Finish'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
